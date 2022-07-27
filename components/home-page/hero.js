@@ -7,7 +7,7 @@ function Hero(){
         </div>
         <h1>Hi, I'm Shittler</h1>
         <p>
-            I blog about genocide and naps.
+            I shitpost about genocide and naps.
         </p>
     </section>
 }

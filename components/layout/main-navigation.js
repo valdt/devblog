@@ -1,8 +1,10 @@
 import Link from "next/dist/client/link";
+import Logo from "./logo";
+import classes from './main-navigations.module.css';
 function MainNavigation() {
   return (
-    <header>
-      <Link>
+    <header className={classes.header}>
+      <Link href="/">
         <a>
           <Logo />
         </a>
@@ -10,7 +12,7 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link href="/post">Posts</Link>
+            <Link href="/posts">Posts</Link>
           </li>
           <li>
             <Link href="/contact">Contact</Link>
