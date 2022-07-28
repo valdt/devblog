@@ -1,5 +1,5 @@
 import classes from './hero.module.css'
-import Image from 'next/image';
+import Image from 'next/Image';
 function Hero(){
     return <section className={classes.hero}>
         <div className={classes.image}>
